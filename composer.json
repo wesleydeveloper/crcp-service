@@ -1,5 +1,5 @@
 {
-    "name": "wesleydeveloper/api-crcp",
+    "name": "wesleydeveloper/crcp-service",
     "description": "Wrapper para consultar CPF na Central de Registros de Certificados Profissionais",
     "type": "library",
     "license": "MIT",
