@@ -43,7 +43,10 @@ class CRCPService
 
     public function __construct(string $twoCaptchaKey)
     {
-        $this->twoCaptcha = new TwoCaptcha($twoCaptchaKey);
+        $this->twoCaptcha = new TwoCaptcha([
+            'apiKey'           => $twoCaptchaKey,
+            'softId'           => 3000
+        ]);
         $this->client = new Client();
         $this->params = [];
         $this->result = [];
