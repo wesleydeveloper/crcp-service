@@ -1,12 +1,13 @@
 {
     "name": "wesleydeveloper/crcp-service",
-    "description": "Wrapper para consultar CPF na Central de Registros de Certificados Profissionais",
+    "description": "Serviço de consulta CRCP - Central de Registros de Certificados Profissionais",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Wesley Silva",
-            "email": "wesley_silva@outlook.com"
+            "email": "wesley_silva@outlook.com",
+            "homepage": "https://wesleydeveloper.github.io"
         }
     ],
     "minimum-stability": "dev",
